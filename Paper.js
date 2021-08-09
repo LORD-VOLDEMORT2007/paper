@@ -24,6 +24,7 @@ class Paper
         var pos = this.body.position
         
         fill ("white")
+        ellipseMode(RADIUS)
         circle(pos.x , pos.y  , this.radius)
 
     }
